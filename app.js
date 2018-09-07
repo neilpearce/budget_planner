@@ -470,14 +470,3 @@ var controller = (function(budgetCtrl, UICtrl) {
 
 
 controller.init();
-
-/*
-
-Hi Bartłomiej,
-That's because 'id' and 'current' could contain anything as they are parameters passed into a function. A parameter is practically a variable attached to a function definition and we pass data into these parameters, which is what we call 'arguments'.
-I like to call parameters - windows, because they allow us to pass data in and out.
-​So here we want to create a new array using map() and pass that out of it's window using a callback function and parameter called 'current'. You could call this parameter anything you want. Then we want to use the 'id' of that array.
-
-*/
-
-Jiyeol
